@@ -105,14 +105,23 @@ function replaceContent(event) {
 
 
 let isScrolling = false;
-document.addEventListener('wheel', function (event) {
-    if (isScrolling) return; 
+let startY = 0;
+let endY = 0;
 
-    console.log(event.deltaY);
+function handleScroll(event) {
+    if (isScrolling) return;
 
-    if (event.deltaY > 0) {
+    let delta = 0;
+    if (event.type === 'wheel') {
+        delta = event.deltaY;
+    } else if (event.type === 'touchmove') {
+        endY = event.touches[0].clientY;
+        delta = endY - startY;
+    }
+
+    if (delta > 0) {
         currentIndex += 1;
-    } else if (event.deltaY < 0) {
+    } else if (delta < 0) {
         currentIndex -= 1;
     }
 
@@ -120,7 +129,14 @@ document.addEventListener('wheel', function (event) {
 
     isScrolling = true;
     setTimeout(() => {
-        isScrolling = false; 
-    }, 1000); 
-}, { passive: false });
+        isScrolling = false;
+    }, 1000);
+}
 
+document.addEventListener('wheel', handleScroll, { passive: false });
+
+document.addEventListener('touchstart', function(event) {
+    startY = event.touches[0].clientY;
+});
+
+document.addEventListener('touchmove', handleScroll, { passive: false });

@@ -600,4 +600,17 @@ p,h1{
         color: #CBCBE3;
         
     }
+
+    #content1 h1 {
+        font-size: 110px;
+    }
+
+    #content1 p{
+        font-size: 50px;
+        margin-top: -5rem;
+    }
+    #content1 h3 {
+        font-size: 40px;
+        margin-top: -5rem;
+    }
 }
