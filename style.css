@@ -485,6 +485,21 @@ p,h1{
 
 }
 
+@media screen and (max-width: 800px) {
+    .background-square{
+        top: -3%;
+    }
+
+    .circle{
+        margin-top: -1rem;
+    }
+
+    .content-display{
+        top: 8rem;
+    }
+}
+
+
 @media screen and (max-width: 576px) {
     .circle {
         width: 270px;
