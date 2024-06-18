@@ -504,12 +504,12 @@ p,h1{
     .circle {
         width: 270px;
         height: 270px;
-        margin-top: -8rem;
+        margin-top: -9rem;
     }
     
     
     .background-square {
-        top: -17%;
+        top: -19%;
     }
     
     .inner-circle {
@@ -522,9 +522,7 @@ p,h1{
         height: 200vw;
     }
 
-    .content-display {
-        top: 11rem;
-    }
+
 
     .segment{
         font-size: 0.9rem;
@@ -567,6 +565,7 @@ p,h1{
         left: 50%;
         transform: translateX(-50%);
         margin-right: -3rem;
+        bottom: 4rem;
     }
 
     .previous::before{
