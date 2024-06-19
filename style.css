@@ -23,6 +23,7 @@ p,h1{
 .left_corner{
     justify-content: flex-start;
     line-height: 1;
+    position: fixed;
 }
 
 .left_corner h1{
@@ -502,58 +503,59 @@ p,h1{
 
 @media screen and (max-width: 576px) {
     .circle {
-        width: 270px;
-        height: 270px;
-        margin-top: -9rem;
+        width: 170px;
+        height: 170px;
+        margin-top: -4rem;
     }
     
     
     .background-square {
-        top: -19%;
+        top: -13%;
     }
     
     .inner-circle {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .circle-container{
-        margin-top: 10rem;
+        margin-top: 16rem;
         height: 200vw;
     }
 
 
 
-    .segment{
-        font-size: 0.9rem;
+    .segment p{
+        margin: -2px;
+        font-size: .7rem;
     }
 
     .segment:nth-child(1) {
-        transform: rotate(0deg) translate(120px);
+        transform: rotate(0deg) translate(75px);
     }
 
     .segment:nth-child(2) {
-        transform: rotate(48.42deg) translate(120px);
+        transform: rotate(48.42deg) translate(75px);
     }
 
     .segment:nth-child(3) {
-        transform: rotate(103.84deg) translate(120px);
+        transform: rotate(103.84deg) translate(75px);
     }
 
     .segment:nth-child(4) {
-        transform: rotate(152.26deg) translate(120px);
+        transform: rotate(152.26deg) translate(75px);
     }
 
     .segment:nth-child(5) {
-        transform: rotate(209.68deg) translate(120px);
+        transform: rotate(209.68deg) translate(75px);
     }
 
     .segment:nth-child(6) {
-        transform: rotate(253.1deg) translate(120px);
+        transform: rotate(253.1deg) translate(75px);
     }
 
     .segment:nth-child(7) {
-        transform: rotate(307.52deg) translate(120px);
+        transform: rotate(307.52deg) translate(75px);
     }
 
 
@@ -565,7 +567,7 @@ p,h1{
         left: 50%;
         transform: translateX(-50%);
         margin-right: -3rem;
-        bottom: 4rem;
+        bottom: 2rem;
     }
 
     .previous::before{
@@ -601,9 +603,9 @@ p,h1{
     }
 
     .background-square{
-        border-left: 65px solid transparent;
-        border-right: 65px solid transparent;
-        border-bottom: 200px  solid #CBCBE4;
+        border-left: 45px solid transparent;
+        border-right: 45px solid transparent;
+        border-bottom: 100px  solid #CBCBE4;
     }
 
     .rotate-me{
