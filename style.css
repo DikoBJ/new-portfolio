@@ -496,7 +496,7 @@ p,h1{
     }
 
     .content-display{
-        top: 7rem;
+        top: 9rem;
     }
 }
 
@@ -505,12 +505,12 @@ p,h1{
     .circle {
         width: 170px;
         height: 170px;
-        margin-top: -7rem;
+        margin-top: -4rem;
     }
     
     
     .background-square {
-        top: -15%;
+        top: -10%;
     }
     
     .inner-circle {
@@ -519,7 +519,7 @@ p,h1{
     }
 
     .circle-container{
-        margin-top: 14rem;
+        margin-top: 16rem;
         height: 200vw;
     }
 
@@ -567,6 +567,7 @@ p,h1{
         left: 50%;
         transform: translateX(-50%);
         margin-right: -3rem;
+        bottom: 0rem;
     }
 
     .previous::before{
@@ -604,7 +605,7 @@ p,h1{
     .background-square{
         border-left: 45px solid transparent;
         border-right: 45px solid transparent;
-        border-bottom: 70px  solid #CBCBE4;
+        border-bottom: 100px  solid #CBCBE4;
     }
 
     .rotate-me{
@@ -613,7 +614,7 @@ p,h1{
         font-family: 'Alumni Sans';
         font-size: 18px;
         color: #CBCBE3;
-        top: -2rem;
+        
     }
 
     #content1 h1 {
