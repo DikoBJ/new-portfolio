@@ -496,7 +496,7 @@ p,h1{
     }
 
     .content-display{
-        top: 8rem;
+        top: 9rem;
     }
 }
 
@@ -510,7 +510,7 @@ p,h1{
     
     
     .background-square {
-        top: -13%;
+        top: -10%;
     }
     
     .inner-circle {
@@ -567,7 +567,7 @@ p,h1{
         left: 50%;
         transform: translateX(-50%);
         margin-right: -3rem;
-        bottom: 2rem;
+        bottom: 0rem;
     }
 
     .previous::before{
