@@ -770,7 +770,7 @@ p,h1{
     }
     #content1 h3 {
         font-size: 40px;
-        margin-top: -4rem;
+        margin-top: -2.5rem;
     }
 }
 
@@ -782,10 +782,3 @@ p,h1{
 
 }
 
-
-@media screen and (max-width: 400px) {
-
-    .background-square {
-        top: -9%;
-    }
-}
