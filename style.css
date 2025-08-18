@@ -63,8 +63,8 @@ p,h1{
 
 .circle {
     position: relative;
-    width: 550px;
-    height: 550px;
+    width: 650px;
+    height: 650px;
     border: 1px dashed #4A62B6;
     border-radius: 50%;
     display: flex;
@@ -72,7 +72,7 @@ p,h1{
     align-items: center;
     transform: rotate(0deg);
     transition: transform 0.5s;
-    margin-top: -7rem;
+    margin-top: -8rem;
     background-color: transparent;
 }
 .circle::before {
@@ -100,8 +100,8 @@ p,h1{
 
 .inner-circle {
     position: relative;
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     border: 1px solid #CBCBE3;
     border-radius: 50%;
     display: flex;
@@ -130,29 +130,29 @@ p,h1{
 }
 
 .segment:nth-child(1) { 
-    transform: rotate(1deg) translate(240px);
+    transform: rotate(1deg) translate(290px);
     display: grid;
  }
 .segment:nth-child(2) { 
-    transform: rotate(50.42deg) translate(240px);
+    transform: rotate(50.42deg) translate(290px);
     display: grid;
  }
 .segment:nth-child(3) { 
-    transform: rotate(104.84deg) translate(240px);
+    transform: rotate(104.84deg) translate(290px);
     display: grid; }
 .segment:nth-child(4) { 
-    transform: rotate(154.26deg) translate(240px);
+    transform: rotate(154.26deg) translate(290px);
     display: grid; }
 .segment:nth-child(5) { 
-    transform: rotate(210.68deg) translate(240px);
+    transform: rotate(210.68deg) translate(290px);
     display: grid;
  }
 .segment:nth-child(6) { 
-    transform: rotate(257.1deg) translate(240px);
+    transform: rotate(257.1deg) translate(290px);
     display: grid;
  }
 .segment:nth-child(7) { 
-    transform: rotate(310.52deg) translate(240px);
+    transform: rotate(310.52deg) translate(290px);
     display: grid; }
 
 /*About Me*/
@@ -174,24 +174,27 @@ p,h1{
 
 
 
-/*Sencilia*/
+/*Encolor*/
 .segment:nth-child(2) p:nth-child(1) { 
     transform: rotate(84deg) translateY(2px);
     }
 .segment:nth-child(2) p:nth-child(2) { 
-    transform: rotate(92deg) translateY(1px);
+    transform: rotate(88deg) translateY(1px);
     }
 .segment:nth-child(2) p:nth-child(3) { 
-    transform: rotate(97deg) translateY(3px);
+    transform: rotate(95deg) translateY(2px);
     }
 .segment:nth-child(2) p:nth-child(4) { 
-    transform: rotate(102deg) translateY(6px);
+    transform: rotate(102deg) translateY(5px);
     }
 .segment:nth-child(2) p:nth-child(5) { 
-    transform: rotate(106deg) translateY(11px);
+    transform: rotate(104deg) translateY(10px);
     }
 .segment:nth-child(2) p:nth-child(6) { 
-    transform: rotate(113deg) translateY(18px);
+    transform: rotate(112deg) translateY(16px);
+    }
+.segment:nth-child(2) p:nth-child(7) { 
+    transform: rotate(118deg) translateY(24px);
     }
 
 
@@ -204,13 +207,13 @@ p,h1{
     transform: rotate(89deg) translateY(2px);
     }
 .segment:nth-child(3) p:nth-child(3) { 
-    transform: rotate(97deg) translateY(3px);
+    transform: rotate(95deg) translateY(3px);
     }
 .segment:nth-child(3) p:nth-child(4) { 
-    transform: rotate(100deg) translateY(7px);
+    transform: rotate(100deg) translateY(6px);
     }
 .segment:nth-child(3) p:nth-child(5) { 
-    transform: rotate(107deg) translateY(13px);
+    transform: rotate(107deg) translateY(10px);
     }
 
     
@@ -225,13 +228,13 @@ p,h1{
     transform: rotate(95deg) translateY(3px);
     }
 .segment:nth-child(4) p:nth-child(4) { 
-    transform: rotate(101deg) translateY(7px);
+    transform: rotate(98deg) translateY(6px);
     }
 .segment:nth-child(4) p:nth-child(5) { 
-    transform: rotate(108deg) translateY(12px);
+    transform: rotate(104deg) translateY(10px);
     }
 .segment:nth-child(4) p:nth-child(6) { 
-    transform: rotate(113deg) translateY(19px);
+    transform: rotate(106deg) translateY(16px);
     }
   
 
@@ -243,10 +246,10 @@ p,h1{
     transform: rotate(90deg) translateY(1px);
     }
 .segment:nth-child(5) p:nth-child(3) { 
-    transform: rotate(96deg) translateY(3px);
+    transform: rotate(96deg) translateY(2px);
     }
 .segment:nth-child(5) p:nth-child(4) { 
-    transform: rotate(108deg) translateY(7px);
+    transform: rotate(108deg) translateY(5px);
     }
 
 
@@ -264,10 +267,10 @@ p,h1{
     transform: rotate(102deg) translateY(6px);
     }
 .segment:nth-child(6) p:nth-child(5) { 
-    transform: rotate(107deg) translateY(11px);
+    transform: rotate(107deg) translateY(10px);
     }
 .segment:nth-child(6) p:nth-child(6) { 
-    transform: rotate(111deg) translateY(18px);
+    transform: rotate(111deg) translateY(15px);
     }
 
 
@@ -275,19 +278,19 @@ p,h1{
 
 /*Games*/
 .segment:nth-child(7) p:nth-child(1) { 
-    transform: rotate(89deg) translateY(3px);
+    transform: rotate(89deg) translateY(4px);
     }
 .segment:nth-child(7) p:nth-child(2) { 
-    transform: rotate(92deg) translateY(2px);
+    transform: rotate(92deg) translateY(3px);
     }
 .segment:nth-child(7) p:nth-child(3) { 
-    transform: rotate(97deg) translateY(4px);
+    transform: rotate(94deg) translateY(4px);
     }
 .segment:nth-child(7) p:nth-child(4) { 
-    transform: rotate(100deg) translateY(7px);
+    transform: rotate(100deg) translateY(6px);
     }
 .segment:nth-child(7) p:nth-child(5) { 
-    transform: rotate(105deg) translateY(12px);
+    transform: rotate(105deg) translateY(10px);
     }
 
 
@@ -315,7 +318,7 @@ p,h1{
 #content1 h1 {
     font-family: "Alumni Sans";
     font-size: 5rem;
-    font-size: 130px;
+    font-size: 160px;
     font-weight: 1000;
     text-align: center;
     color: #CBCBE3;
@@ -324,10 +327,10 @@ p,h1{
 
 #content1 p {
     font-family: "Bungee Inline";
-    font-size: 60px;
+    font-size: 80px;
     text-align: start;
     color: #F13C20;
-    margin-top: -4rem;
+    margin-top: -5rem;
     font-weight: 100;
     font-style: normal;
 }
@@ -351,7 +354,7 @@ p,h1{
 }
 
 .previous img{
-    width: 320px;
+    width: 380px;
     border: 10px solid black;
     border-radius: 1rem;
     z-index: 1;
@@ -372,19 +375,19 @@ p,h1{
 }
 
 .previous::before {
-    content: ''; 
+    content: '';
     background-color: #CBCBE3;
-    position: absolute; 
-    width: 370px;
-    height: 360px;
+    position: absolute;
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 0;
     opacity: 30%;
-    left: -1rem;
-    bottom: -2rem;
+    left: -5%;
+    bottom: -3rem;
 }
 
 .previous i{
@@ -427,19 +430,19 @@ p,h1{
 }
 
 .next::before {
-    content: ''; 
+    content: '';
     background-color: #CBCBE3;
-    position: absolute; 
-    width: 370px;
-    height: 370px;
+    position: absolute;
+    width: 440px;
+    height: 440px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 0;
     opacity: 30%;
-    left: -2rem;
-    bottom: -1rem;
+    left: -22%;
+    bottom: -5rem;
 }
 
 .next h1{
@@ -487,33 +490,99 @@ p,h1{
 
 }
 
-@media screen and (max-width: 800px) {
-    .background-square{
-        top: -3%;
+@media screen and (max-width: 1000px) {
+    .circle {
+        width: 550px;
+        height: 550px;
+        margin-top: -2rem;
+    }
+    
+    .inner-circle {
+        width: 450px;
+        height: 450px;
     }
 
-    .circle{
-        margin-top: -1rem;
+    .background-square{
+        top: -6%;
     }
 
     .content-display{
-        top: 9rem;
+        top: 6.5rem;
     }
+
+    .previous img 
+    {
+        width: 300px;
+    }
+
+    .previous::before{
+        width: 400px;
+        height: 400px;
+        left: -12%;
+        bottom: -3rem;
+    }
+
+    #content1 h1 {
+        font-size: 130px;
+    }
+
+    #content1 p {
+        font-size: 60px;
+        margin-top: -3rem;
+    }
+
+    .next::before{
+        left: -16%;
+        bottom: -3rem;
+        width: 400px;
+        height: 400px;
+    }
+
+    .segment:nth-child(1) { 
+        transform: rotate(1deg) translate(240px);
+        display: grid;
+     }
+    .segment:nth-child(2) { 
+        transform: rotate(50.42deg) translate(240px);
+        display: grid;
+     }
+    .segment:nth-child(3) { 
+        transform: rotate(104.84deg) translate(240px);
+        display: grid; }
+    .segment:nth-child(4) { 
+        transform: rotate(154.26deg) translate(240px);
+        display: grid; }
+    .segment:nth-child(5) { 
+        transform: rotate(210.68deg) translate(240px);
+        display: grid;
+     }
+    .segment:nth-child(6) { 
+        transform: rotate(257.1deg) translate(240px);
+        display: grid;
+     }
+    .segment:nth-child(7) { 
+        transform: rotate(310.52deg) translate(240px);
+        display: grid; }
+
+
 }
 
 
 
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .circle {
         width: 170px;
         height: 170px;
         margin-top: -3.5rem;
     }
+
+    .content-display {
+        top: 8rem;
+    }
     
     
     .background-square {
-        top: -7%;
+        top: -6;
     }
     
     .inner-circle {
@@ -542,7 +611,7 @@ p,h1{
     }
 
     .segment:nth-child(2) {
-        transform: rotate(60.42deg) translate(75px);
+        transform: rotate(56.42deg) translate(75px);
     }
 
     .segment:nth-child(3) {
@@ -570,7 +639,7 @@ p,h1{
         transform: rotate(77deg) translateY(2px);
         }
     .segment:nth-child(1) p:nth-child(2) { 
-        transform: rotate(87deg) translateY(0px);
+        transform: rotate(76deg) translateY(0px);
         }
     .segment:nth-child(1) p:nth-child(3) { 
         transform: rotate(92deg) translateY(-1px);
@@ -584,7 +653,7 @@ p,h1{
 
 
 
-    /*Thesis*/
+    /*Encolor*/
     .segment:nth-child(2) p:nth-child(1) { 
         transform: rotate(71deg) translateY(2px);
         }
@@ -602,6 +671,9 @@ p,h1{
         }
     .segment:nth-child(2) p:nth-child(6) { 
         transform: rotate(113deg) translateY(3px);
+        }
+    .segment:nth-child(2) p:nth-child(7) { 
+        transform: rotate(118deg) translateY(7px);
         }
 
 
@@ -677,7 +749,7 @@ p,h1{
         transform: rotate(110deg) translateY(0px);
         }
     .segment:nth-child(6) p:nth-child(6) { 
-        transform: rotate(115deg) translateY(3px);
+        transform: rotate(111deg) translateY(3px);
         }
 
 
@@ -688,7 +760,7 @@ p,h1{
         transform: rotate(76deg) translateY(1px);
         }
     .segment:nth-child(7) p:nth-child(2) { 
-        transform: rotate(84deg) translateY(-1px);
+        transform: rotate(81deg) translateY(-1px);
         }
     .segment:nth-child(7) p:nth-child(3) { 
         transform: rotate(89deg) translateY(-2px);
