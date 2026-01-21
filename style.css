@@ -27,15 +27,17 @@ p,h1{
 }
 
 .left_corner h1{
-    font-family: "Bungee";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     font-size: 30px;
     color: #E4C17C;
 }
 
 .left_corner h2{
-    font-family:'Bungee Inline';
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 25px;
-    color: #EFE2BA;
+    color: #E4C17C;
 }
 
 .right_corner{
@@ -130,37 +132,34 @@ p,h1{
 }
 
 .segment:nth-child(1) { 
-    transform: rotate(1deg) translate(290px);
+    transform: rotate(3deg) translate(295px);   
     display: grid;
  }
 .segment:nth-child(2) { 
-    transform: rotate(50.42deg) translate(290px);
+    transform: rotate(60deg) translate(295px);
     display: grid;
  }
 .segment:nth-child(3) { 
-    transform: rotate(104.84deg) translate(290px);
+    transform: rotate(123deg) translate(295px);
     display: grid; }
 .segment:nth-child(4) { 
-    transform: rotate(154.26deg) translate(290px);
+    transform: rotate(182deg) translate(295px);
     display: grid; }
 .segment:nth-child(5) { 
-    transform: rotate(210.68deg) translate(290px);
+    transform: rotate(245deg) translate(295px);
     display: grid;
  }
 .segment:nth-child(6) { 
-    transform: rotate(257.1deg) translate(290px);
+    transform: rotate(300deg) translate(295px);
     display: grid;
  }
-.segment:nth-child(7) { 
-    transform: rotate(310.52deg) translate(290px);
-    display: grid; }
 
 /*About Me*/
 .segment:nth-child(1) p:nth-child(1) { 
-    transform: rotate(90deg) translateY(2px);
+    transform: rotate(82deg) translateY(3px);
     }
 .segment:nth-child(1) p:nth-child(2) { 
-    transform: rotate(92deg) translateY(2px);
+    transform: rotate(87deg) translateY(2px);
     }
 .segment:nth-child(1) p:nth-child(3) { 
     transform: rotate(99deg) translateY(3px);
@@ -169,7 +168,7 @@ p,h1{
     transform: rotate(103deg) translateY(6px);
     }
 .segment:nth-child(1) p:nth-child(5) { 
-    transform: rotate(106deg) translateY(11px);
+    transform: rotate(106deg) translateY(10px);
     }
 
 
@@ -185,16 +184,16 @@ p,h1{
     transform: rotate(95deg) translateY(2px);
     }
 .segment:nth-child(2) p:nth-child(4) { 
-    transform: rotate(102deg) translateY(5px);
+    transform: rotate(102deg) translateY(4px);
     }
 .segment:nth-child(2) p:nth-child(5) { 
-    transform: rotate(104deg) translateY(10px);
+    transform: rotate(105deg) translateY(9px)
     }
 .segment:nth-child(2) p:nth-child(6) { 
-    transform: rotate(112deg) translateY(16px);
+    transform: rotate(110deg) translateY(14px)
     }
 .segment:nth-child(2) p:nth-child(7) { 
-    transform: rotate(114deg) translateY(23px);
+    transform: rotate(114deg) translateY(21px)
     }
 
 
@@ -234,7 +233,7 @@ p,h1{
     transform: rotate(104deg) translateY(10px);
     }
 .segment:nth-child(4) p:nth-child(6) { 
-    transform: rotate(106deg) translateY(16px);
+    transform: rotate(110deg) translateY(16px)
     }
   
 
@@ -253,7 +252,7 @@ p,h1{
     }
 
 
-/*Animation*/
+/*Console*/
 .segment:nth-child(6) p:nth-child(1) { 
     transform: rotate(85deg) translateY(2px);
     }
@@ -261,46 +260,30 @@ p,h1{
     transform: rotate(92deg) translateY(1px);
     }
 .segment:nth-child(6) p:nth-child(3) { 
-    transform: rotate(98deg) translateY(3px);
+    transform: rotate(94deg) translateY(2px);
     }
 .segment:nth-child(6) p:nth-child(4) { 
-    transform: rotate(102deg) translateY(6px);
+    transform: rotate(99deg) translateY(4px)
     }
 .segment:nth-child(6) p:nth-child(5) { 
-    transform: rotate(107deg) translateY(10px);
+    transform: rotate(107deg) translateY(8px);
     }
 .segment:nth-child(6) p:nth-child(6) { 
-    transform: rotate(111deg) translateY(15px);
+    transform: rotate(111deg) translateY(13px);
+    }
+.segment:nth-child(6) p:nth-child(7) { 
+    transform: rotate(114deg) translateY(20px)
     }
 
 
-
-
-/*Games*/
-.segment:nth-child(7) p:nth-child(1) { 
-    transform: rotate(89deg) translateY(4px);
-    }
-.segment:nth-child(7) p:nth-child(2) { 
-    transform: rotate(92deg) translateY(3px);
-    }
-.segment:nth-child(7) p:nth-child(3) { 
-    transform: rotate(94deg) translateY(4px);
-    }
-.segment:nth-child(7) p:nth-child(4) { 
-    transform: rotate(100deg) translateY(6px);
-    }
-.segment:nth-child(7) p:nth-child(5) { 
-    transform: rotate(105deg) translateY(10px);
-    }
 
 
 .content-display {
     position: absolute;
-    font-size: 24px;
     font-weight: bold;
     text-align: center;
     color: #4056A1;
-    top: 2rem;
+    top: 3rem;
 }
 
 .content {
@@ -318,18 +301,18 @@ p,h1{
 #content1 h1 {
     font-family: "Alumni Sans";
     font-size: 5rem;
-    font-size: 160px;
-    font-weight: 1000;
+    font-size: 150px;
+    font-weight: 700;
     text-align: center;
     color: #CBCBE3;
     margin-top: 1rem;
 }
 
 #content1 p {
-    font-family: "Bungee Inline";
-    font-size: 80px;
+    font-family:  "Bungee Shade";
+    font-size: 65px;
     text-align: start;
-    color: #F13C20;
+    color: #4056A1;
     margin-top: -5rem;
     font-weight: 100;
     font-style: normal;
@@ -340,7 +323,7 @@ p,h1{
     font-weight: bold;
     text-align: start;
     color: #F13C20;
-    margin-top: -2rem;
+    margin-top: -1.5rem;
     font-size: 50px;
 }
 
@@ -359,6 +342,7 @@ p,h1{
     border-radius: 1rem;
     z-index: 1;
     position: relative;
+    background-color: black;
 }
 
 .previous a{
@@ -539,30 +523,27 @@ p,h1{
     }
 
     .segment:nth-child(1) { 
-        transform: rotate(1deg) translate(240px);
+        transform: rotate(0deg) translate(240px);
         display: grid;
      }
     .segment:nth-child(2) { 
-        transform: rotate(50.42deg) translate(240px);
+        transform: rotate(60deg) translate(240px);
         display: grid;
      }
     .segment:nth-child(3) { 
-        transform: rotate(104.84deg) translate(240px);
+        transform: rotate(120deg) translate(240px);
         display: grid; }
     .segment:nth-child(4) { 
-        transform: rotate(154.26deg) translate(240px);
+        transform: rotate(180deg) translate(240px);
         display: grid; }
     .segment:nth-child(5) { 
-        transform: rotate(210.68deg) translate(240px);
+        transform: rotate(240deg) translate(240px);
         display: grid;
      }
     .segment:nth-child(6) { 
-        transform: rotate(257.1deg) translate(240px);
+        transform: rotate(300deg) translate(240px);
         display: grid;
      }
-    .segment:nth-child(7) { 
-        transform: rotate(310.52deg) translate(240px);
-        display: grid; }
 
 
 }
@@ -607,32 +588,29 @@ p,h1{
     }
 
     .segment:nth-child(1) {
-        transform: rotate(9deg) translate(75px);
+        transform: rotate(0deg) translate(75px);
     }
 
     .segment:nth-child(2) {
-        transform: rotate(56.42deg) translate(75px);
+        transform: rotate(60deg) translate(75px);
     }
 
     .segment:nth-child(3) {
-        transform: rotate(111.84deg) translate(75px);
+        transform: rotate(120deg) translate(75px);
     }
 
     .segment:nth-child(4) {
-        transform: rotate(161.26deg) translate(75px);
+        transform: rotate(180deg) translate(75px);
     }
 
     .segment:nth-child(5) {
-        transform: rotate(214.68deg) translate(75px);
+        transform: rotate(240deg) translate(75px);
     }
 
     .segment:nth-child(6) {
-        transform: rotate(264.1deg) translate(75px);
+        transform: rotate(300deg) translate(75px);
     }
 
-    .segment:nth-child(7) {
-        transform: rotate(317.52deg) translate(75px);
-    }
 
     /*About Me*/
     .segment:nth-child(1) p:nth-child(1) { 
@@ -755,22 +733,6 @@ p,h1{
 
 
 
-    /*Games*/
-    .segment:nth-child(7) p:nth-child(1) { 
-        transform: rotate(76deg) translateY(1px);
-        }
-    .segment:nth-child(7) p:nth-child(2) { 
-        transform: rotate(81deg) translateY(-1px);
-        }
-    .segment:nth-child(7) p:nth-child(3) { 
-        transform: rotate(89deg) translateY(-2px);
-        }
-    .segment:nth-child(7) p:nth-child(4) { 
-        transform: rotate(99deg) translateY(-1.5px);
-        }
-    .segment:nth-child(7) p:nth-child(5) { 
-        transform: rotate(106deg) translateY(0.5px);
-        }
 
     .icons {
         display: flex;
@@ -853,4 +815,5 @@ p,h1{
 }
 
 }
+
 
