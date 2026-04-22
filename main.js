@@ -18,7 +18,7 @@
     const descriptions = [
         `Console software was developed and designed for the lighting controllers monitoring system.`,
         `Hotel Texel Den Burg is live and taking bookings.<br>Proud to have designed and built this one from scratch.`,
-        `Encolor — a standalone site for a luxury lighting product,<br>designed for the customers who notice the details.`
+        `Encolor — a standalone site for a luxury lighting product,designed for the customers who notice the details.`
     ];
 
     const bgColors = [
